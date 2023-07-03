@@ -12,6 +12,7 @@ output: html_document
 
 
 ```{r include=FALSE,echo=FALSE}
+source(file="fisherXY.R")
 require(tidyverse)
 require(tigerstats)
 require(knitr)
@@ -100,4 +101,4 @@ The only difference was the differences between the black and white race.The onl
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-When we looked at the less data side there was less of a different between the black and white. in the more data side we had 2000 and the less data had 800.
+When we looked at the less data side there was less of a different between the black and white. in the more data side we had 2000 and the less data had 800.the
