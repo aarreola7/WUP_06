@@ -90,7 +90,7 @@ Something is going on because the p value is low at .00000000000000022 so we nee
 fisherXY(mydata$race,mydata$cappun)
 ```
 
-Every other race is different than with this particular data.Stillhaving a very low p-value. With the white race still holding the highest percentage in favor of capital punishment.
+Every other race is different than with this particular data.Still having a very low p-value. With the white race still holding the highest percentage in favor of capital punishment.
 
 ## More data version
 
