@@ -62,6 +62,13 @@ Both plots ain to cisulaize the distribution of observations across different ra
 
 
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+All of the races have an equal amount of people being interviewed for the study.The whites are in favor 65.10% and opposed 34.90%. The blacks are in favor 42.63% and opposed 57.37% and the other races are in favor 55.20 % and opposed 44.80%.So it shows that the whites are the most in favor of capital punishment.
 
 ## Now with More data
 
