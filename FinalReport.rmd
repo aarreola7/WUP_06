@@ -89,7 +89,7 @@ fisher.test(table1)
 The P value is still significant not as dramatic as the previous branch so we will still need to run a fisher xy test.
 
 ```{r}
-fisherXY(mydata$race,mydata$cappun,printAll = TRUE)
+fisherXY(mydata$race,mydata$cappun, printAll = TRUE)
 ```
 
 The only difference was the differences between the black and white race.The only significant p value was between black and white races. The p-value between white and other is not at all a significant p value. 
